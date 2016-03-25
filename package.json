@@ -1,0 +1,27 @@
+{
+  "name": "expressjsexample",
+  "version": "0.0.1",
+  "description": "A expressjs example ",
+  "main": "app.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClassicGiri/ExpressJSexample.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "giri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClassicGiri/ExpressJSexample/issues"
+  },
+  "homepage": "https://github.com/ClassicGiri/ExpressJSexample#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  }
+}
