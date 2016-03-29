@@ -2,7 +2,7 @@
 var express= require('express'),
     posts=require('./mock/posts.json');
 var app=express();
-
+app.use('/static',express.static(__dirname+'/public'));
 app.set('views',__dirname+'/templates');
 app.set('view engine','jade');
 console.log(__dirname);
